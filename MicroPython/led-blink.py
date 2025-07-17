@@ -3,9 +3,8 @@ from time import sleep
 
 Pin('LED', Pin.OUT).value(1)
 
-redLED = Pin(15, Pin.OUT)
+led = Pin(15, Pin.OUT)
 
 while True:
-    redLED.toggle()
-    sleep(.1)
-    
+    led.toggle()
+    sleep(.25)
