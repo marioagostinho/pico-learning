@@ -12,6 +12,6 @@ anout.duty_u16(0)
 
 while True:
     adc_value = pot.read_u16()
-    anout.duty_u16(int(adc_value))
+    anout.duty_u16(adc_value)
     
     sleep(.1)
